@@ -1,3 +1,5 @@
+// ********************** Conversion *********************** //
+
 //let score = 28 // Number
 let score = true // string (Because in double quote) // NaN // null // undefined // true
 //let score = "28kirti" // string (Because in double quote) // NaN
@@ -34,4 +36,38 @@ let stringNumber = String(someNumber)
 console.log(stringNumber);
 
 console.log(typeof (stringNumber));
+
+//********************** Operation ********************** */
+
+let value = 7
+let negValue = -value
+console.log(negValue);
+
+//console.log(2+2);
+//console.log(2+2);
+//console.log(2-2);
+//console.log(2*2);
+//console.log(2**3);
+//console.log(2/3);
+//console.log(2%3);
+
+let str1 = "Hello"
+let str2 = " Kirti"
+
+let str3 = str1 + str2
+console.log(str3);
+
+//console.log("1" + 2);
+//console.log(1 + "2");
+//console.log("1" + 2 + 2);
+//console.log(1 + 2 + "2");
+
+// Not to write this above code
+
+console.log(true);
+console.log(+true);
+
+let gameCounter = 100
+gameCounter++;
+console.log(gameCounter); // Value => 101
 
