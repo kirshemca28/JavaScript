@@ -47,3 +47,32 @@ const myFunction = function()
 }
 
 console.log(typeof anotherId);
+
+
+
+/* ******************* Stack and Heap Memory ******************* */
+
+// Stack use in Premitive (Get Copy) // Heap use in Non-Premitive (Get Refrence)
+
+let myInstaname = "kirtishekhar"
+
+let anotherName = myInstaname
+anotherName = "KirSheMca"
+
+console.log(myInstaname);
+console.log(anotherName);
+
+
+let userOne = {
+    email: "email@gmail.com",
+    upiname: "userYbl",
+}
+
+let userTwo = userOne
+
+userTwo.email = "mail@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
