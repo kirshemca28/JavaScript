@@ -3,7 +3,7 @@ let accountEmail = "info@gmail.com"
 var accountPassword = "007700"
 accountCity = "Patna"
 let accountState = "Bihar"
-var assume = 'Raj'
+
 
 //accountId = 2 // not allowed
 
